@@ -1,0 +1,64 @@
+.card-new {
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+  margin: 20px;
+}
+
+.card-new img {
+  width: 100%;
+  height: 200px;
+  object-fit: contain;
+}
+
+.card-content {
+  padding: 20px;
+}
+
+.card-content h2 {
+  margin: 0;
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.price {
+  margin-top: 10px;
+  font-size: 1.2rem;
+  color: #555;
+}
+
+.quantity-left {
+  margin-top: 5px;
+  color: #777;
+}
+
+.description {
+  margin-top: 10px;
+  font-size: 1rem;
+  color: #444;
+}
+
+.category {
+  margin-top: 5px;
+  font-size: 0.9rem;
+  color: #666;
+}
+.quantity-select {
+  margin-top: 10px;
+}
+
+.quantity-select label {
+  display: block;
+  font-size: 1rem;
+  color: #555;
+}
+
+.quantity-select input[type="number"] {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
