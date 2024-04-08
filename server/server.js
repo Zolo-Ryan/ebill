@@ -6,7 +6,7 @@ const cors = require("cors");
 const userRoute = require("./routes/userRoute.js");
 const productRoute = require("./routes/productRoute.js");
 const contactRoute = require("./routes/contactRoute.js");
-const errorHandler = require("./middleWare/errorMiddleware.js");
+// const errorHandler = require("./middleWare/errorMiddleware.js");
 const cookieParser = require("cookie-parser");
 const path = require("path");
 console.log("This is dir name: ", __dirname);
@@ -37,7 +37,7 @@ app.get("*", (req, res) => {
 });
 
 // Error Middleware
-app.use(errorHandler);
+// app.use(errorHandler);
 // Connect to DB and start server
 const PORT = process.env.PORT || 5000;
 mongoose
